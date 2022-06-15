@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QSOFT</title>
+
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/partners.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo header__logo" href="#">
+        <img src="/img/logo.svg" alt="Логотип QSOFT" width="135" height="30">
+      </a>
+
+      <div class="header__search search">
+        <button class="search__button" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 20L15.0962 15.0962M15.0962 15.0962C16.2725 13.9199 17 12.2949 17 10.5C17 6.91015 14.0899 4 10.5 4C6.91015 4 4 6.91015 4 10.5C4 14.0899 6.91015 17 10.5 17C12.2949 17 13.9199 16.2725 15.0962 15.0962Z"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <input class="search__input" type="text" name="search" placeholder="Найти...">
+      </div>
+
+      <div class="header__user user">
+        <a href="#" class="user__link">
+          <span class="user__name">Константин</span>
+
+          <picture>
+            <source type="image/webp" srcset="/img/user_foto.webp">
+
+            <img class="user__img" src="/img/user_foto.png" alt="Фотография пользователя" width="40" height="40">
+          </picture>
+
+          <img class="user__icon" src="/img/user.svg" alt="Иконка пользователя">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="partners">
+    <div class="container">
+      <h1 class="title">Наши партнёры</h1>
+
+      <ul class="partners__list list">
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/henk.webp">
+
+              <img class="partners__img" src="/img/henk.png" alt="Логотип Henkel">
+            </picture>
+          </a>
+        </li>
+
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/john_deere.webp">
+
+              <img class="partners__img" src="/img/john_deere.png" alt="Логотип John Deere">
+            </picture>
+          </a>
+        </li>
+
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/McDonald.webp">
+
+              <img class="partners__img" src="/img/McDonald.png" alt="Логотип McDonalds">
+            </picture>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/Ikea_logo.webp">
+
+              <img class="partners__img" src="/img/Ikea_logo.png" alt="Логотип Ikea">
+            </picture>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/reebook.webp">
+
+              <img class="partners__img" src="/img/reebook.png" alt="Логотип Reebok">
+            </picture>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/nike.webp">
+
+              <img class=" partners__img" src="/img/nike.png" alt="Логотип Nike">
+            </picture>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="#" class="partners__link">
+            <picture>
+              <source type="image/webp" srcset="/img/caterpillar.webp">
+
+              <img class="partners__img" src="/img/caterpillar.png" alt="Логотип Caterpilla">
+            </picture>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+
+</html>
