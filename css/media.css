@@ -58,7 +58,7 @@
     left: 0;
     top: 62px;
     padding: 0 20px;
-
+    border-top: 1px solid var(--grey);
     background-color: var(--main-white);
   }
 
